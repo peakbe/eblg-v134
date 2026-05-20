@@ -199,4 +199,6 @@ app.get("*", (req, res) => {
 // ======================================================
 app.listen(PORT, () => {
     console.log(`[SERVER] Listening on port ${PORT}`);
+    console.log("CHECKWX_KEY =", process.env.CHECKWX_KEY);
+
 });
